@@ -6,7 +6,7 @@ const projects = [
     title: "Academic Research Publication (SINTA 2)",
     description:
       "Master’s thesis research resulting in a peer-reviewed journal publication, focusing on computational modeling and numerical analysis.",
-    image: "/public/publication.png",
+    image: "/publication.png",
     tags: ["C++", "MATLAB", "Computational Modeling"],
     link: "https://jurnal.ar-raniry.ac.id/index.php/elkawnie/article/view/25438",
   },
@@ -14,7 +14,7 @@ const projects = [
     title: "Fractal Visualization Project",
     description:
       "A research-based project focusing on computational modeling and numerical visualization using iterative algorithms.",
-    image: "/public/fractal.png",
+    image: "/fractal.png",
     tags: ["Python", "C++", "MATLAB", "Numerical Modeling"],
     link: "#",
     github: "https://github.com/SitiSahrani/Fractal-Generator-Python/",
@@ -23,7 +23,7 @@ const projects = [
     title: "AI Blog Generator",
     description:
       "An AI-based blog generator that converts YouTube videos into written articles, developed with a backend-focused approach.",
-    image: "/public/ai-blog.png",
+    image: "/ai-blog.png",
     tags: ["Python", "Django", "HTML", "JavaScript"],
     link: "#",
     github: "https://github.com/SitiSahrani/AI-Blog-Generator/",
@@ -32,7 +32,7 @@ const projects = [
     title: "Public Savings Analysis Dashboard",
     description:
       "Analysis of public savings across several banks in Indonesia with structured data processing and visualization.",
-    image: "/public/savings2.png",
+    image: "/savings2.png",
     tags: ["Excel", "Power BI", "Data Processing"],
     link: "#",
     github: "https://github.com/SitiSahrani/Analysis-of-Public-Savings-at-Bank-Indonesia-2025-",
