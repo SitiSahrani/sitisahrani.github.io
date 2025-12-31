@@ -18,7 +18,7 @@ export const Hero = () => {
             <div className="absolute inset-0">
                 <img 
                     src="/hero-bg.jpg"
-                     alt="Hero image" 
+                    alt="Hero image" 
                     className="w-full h-full object-cover opacity-40"
                 />
 
@@ -31,7 +31,7 @@ export const Hero = () => {
                     <div
                         className="absolute w-1.5 h-1.5 rounded-full opacity-60"
                         style={{
-                            backgroundColor: "#20B2A6",
+                            backgroundColor: "#8AA7BC",
                             left:`${Math.random()*100}%`,
                             top: `${Math.random()*100}%`,
                             animation: `slow-drift ${15 + Math.random()*20}s ease-in-out infinite`,
@@ -61,7 +61,7 @@ export const Hero = () => {
                             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
                               Turning <span className="text-primary glow-text">Mathematical Thinking</span>
                               <br />
-                              into <span className="font-serif italic font-normal text-white">
+                              into <span className="font-serif italic font-normal text-primary">
                                  Practical Solutions.
                               </span>
                               <br />
@@ -106,7 +106,6 @@ export const Hero = () => {
                     <div className="relative animate-fade-in animation-delay-300">
                         {/* Profile Image */}
                         <div className="relative max-w-md mx-auto">
-                            <div className="absolute inset-0 rounded-3xl p-2 glow-border"/>
                                 <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse"/>
                                 <div className="relative glass rounded-3xl p-2 glow-border">
                                     <img 
@@ -118,7 +117,7 @@ export const Hero = () => {
                                     <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                                         <div className="flex items-center gap-3">
                                             <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                                            <span>Availavalable for work</span>
+                                            <span>Available for work</span>
                                         </div>
                                     </div>
                                 </div>

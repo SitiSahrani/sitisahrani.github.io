@@ -1,27 +1,38 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #0f1418;
-  --color-foreground: #f0f2f5;
+  /* Base */
+  --color-background: #000000;        /* black background */
+  --color-foreground: #F8EFE5;        /* light blue / off-white text */
 
-  --color-card: #141a1f;
+  /* Card & Surface */
+  --color-card: #0D273D;              /* dark navy for cards / panels */
+  --color-surface: #3E6985;           /* medium-dark blue for section backgrounds */
 
-  --color-primary: #20b2a6;
+  /* Primary */
+  --color-primary: #8AA7BC;           /* medium blue for buttons / key elements */
   --color-primary-foreground: #ffffff;
 
-  --color-secondary: #1f2830;
-  --color-secondary-foreground: #20b2a6;
+  /* Secondary */
+  --color-secondary: #A6BED1;         /* light blue for secondary accents / links */
+  --color-secondary-foreground: #8AA7BC;
 
-  --color-muted: #252e37;
-  --color-muted-foreground: #7a8491;
+  /* Muted */
+  --color-muted: #3E6985;             /* subtle text / borders */
+  --color-muted-foreground: #B0C0D0;
 
-  --color-border: #242b32;
+  /* Border */
+  --color-border: #0D273D;            /* subtle border between sections */
 
+  /* Accent / Highlight */
+  --color-highlight: #CDD7DF;         /* very light blue for hover / highlights */
+
+  /* Radius */
   --radius: 0.75rem;
-
-  --color-highlight: #f5a623;
-  --color-surface: #1a2329;
 }
+
+
+
 
 @layer base {
   html {
@@ -171,9 +182,9 @@
   }
 
   .animated-border:hover {
-    background-color: color-mix(in srgb, #26c4b8 15%, transparent);
+    background-color: color-mix(in srgb, #8AA7BC 15%, transparent);
     backdrop-filter: blur(16px);
-    box-shadow: 0 0 20px color-mix(in srgb, #26c4b8 20%, transparent);
+    box-shadow: 0 0 20px color-mix(in srgb, #8AA7BC 20%, transparent);
   }
 
   .timeline-glow {

@@ -4,7 +4,7 @@ import { About } from "@/sections/About";
 import { Contact } from "@/sections/Contact";
 import { Experience } from "@/sections/Experience";
 import { Projects } from "@/sections/Projects";
-import { Testimonials } from "@/sections/Testimonials";
+// import { Testimonials } from "@/sections/Testimonials";
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
         <Contact />
         <Experience />
         <Projects />
-        <Testimonials /> 
+        {/* <Testimonials />  */}
       </main>
     </div>
   )
