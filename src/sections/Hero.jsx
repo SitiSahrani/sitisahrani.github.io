@@ -13,7 +13,7 @@ const skills = [
 
 export const Hero = () => {
     return(
-        <section className="relative min-h-screen flex items-center overflow-hidden">
+        <section id="Hero" className="relative min-h-screen flex items-center overflow-hidden">
             {/* Bg */}
             <div className="absolute inset-0">
                 <img 
@@ -51,7 +51,7 @@ export const Hero = () => {
                         <div className="animate-fade-in">
                             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                                    Data & Tech Enthusiast 
+                                    Aspiring Web Developer 
                                     {/* | C++, Python, and SQL */}
                             </span>
                         </div>
@@ -68,29 +68,41 @@ export const Hero = () => {
                             </h1>
 
                             <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-800">
-                                Hi, I’m Siti Sahrani — a Master’s graduate in Mathematics with strong analytical, programming, and data visualization skills (Python, SQL, Excel, Power BI, MATLAB).
-                                Experienced in quantitative research and digital reporting, with a passion for building secure, efficient, and data-driven systems through IT Officer Development Programs.
+                                Hi, I’m Siti Sahrani — a Master’s graduate in Mathematics with a strong foundation in analytical thinking and programming. I am currently learning web development,
+                                with hands-on experience using Python, Django, SQL, and React through academic and personal projects. I am interested in building practical web applications and continuously
+                                developing my skills through real-world projects and learning-focused programs.
+
                             </p>
                         </div>
 
                     {/* CTA */}
                     <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-                       <Button size="lg">
-                         Contact Me <ArrowRight className="w-5 h-5" />
-                       </Button> 
-                       <AnimatedBorderButton>
-                            <Download className="w-5 h-5" />
-                            Download CV
-                       </AnimatedBorderButton>
+                       <a href="#contact">
+                         <Button size="lg">
+                           Contact Me <ArrowRight className="w-5 h-5" />
+                         </Button> 
+                       </a>
+
+                       <AnimatedBorderButton asChild>
+                        <a
+                           href="https://drive.google.com/file/d/1Wq587sTDUxFSaPbxYMmHMEyHCRR8RRr7/view"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                        <Download className="w-5 h-5" />
+                        Download CV
+                        </a>
+                        </AnimatedBorderButton>
+
                     </div>
 
                     {/* Sosial Links */}
                     <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
                         <span className="text-sm text-muted-foreground">Follow: </span>
                         {[
-                            {icon: Github, href: "#"},
-                            {icon: Linkedin, href: "#"},
-                            {icon: Instagram, href: "#"},
+                            {icon: Github, href: "https://github.com/SitiSahrani/"},
+                            {icon: Linkedin, href: "https://www.linkedin.com/in/sitiishrn/"},
+                            {icon: Instagram, href: "https://www.instagram.com/sitiishrn_/"},
                         ].map((social, idx) => (
                             <a 
                              key={idx}

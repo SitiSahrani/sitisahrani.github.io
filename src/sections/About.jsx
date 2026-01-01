@@ -39,10 +39,10 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+              Learning and building,
               <span className="font-serif italic font-normal text-primary-foreground">
                 {" "}
-                one component at a time.
+                one project at a time.
               </span>
             </h2>
 
@@ -57,8 +57,9 @@ export const About = () => {
               modeling, and computational visualization.
             </p>
             <p>
-              I am interested in backend development and system-oriented roles,
-              building my skills through continuous learning and hands-on practice.
+              I am interested in web development, particularly backend systems,
+              and I am building my skills through continuous learning and hands-on practice.
+
             </p>
 
             </div>
