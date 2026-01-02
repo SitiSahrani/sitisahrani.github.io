@@ -88,6 +88,7 @@ export const Hero = () => {
                            href="https://drive.google.com/file/d/1Wq587sTDUxFSaPbxYMmHMEyHCRR8RRr7/view"
                            target="_blank"
                            rel="noopener noreferrer"
+                           className="flex items-center gap-2"
                         >
                         <Download className="w-5 h-5" />
                         Download CV
