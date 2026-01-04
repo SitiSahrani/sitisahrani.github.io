@@ -61,7 +61,8 @@ export const Projects = () => {
           <span className="text-primary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
             Featured Work
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
+          {/* <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground"> */}
+          <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
             Projects that
             <span className="font-serif italic font-normal text-foreground">
               {" "}
@@ -119,9 +120,9 @@ export const Projects = () => {
                   </h3>
                   <ArrowUpRight
                     className="w-5 h-5 
-                  text-muted-foreground group-hover:text-primary
-                   group-hover:translate-x-1 
-                   group-hover:-translate-y-1 transition-all"
+                    text-muted-foreground group-hover:text-primary
+                    group-hover:translate-x-1 
+                    group-hover:-translate-y-1 transition-all"
                   />
                 </div>
                 <p className="text-muted-foreground text-sm">

@@ -58,7 +58,8 @@ export const Hero = () => {
 
                         {/* Headline */}
                         <div className="space-y-4">
-                            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
+                            {/* <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100"> */}
+                            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight animate-fade-in animation-delay-100">
                               Turning <span className="text-primary glow-text">Mathematical Thinking</span>
                               <br />
                               into <span className="font-serif italic font-normal text-primary">
